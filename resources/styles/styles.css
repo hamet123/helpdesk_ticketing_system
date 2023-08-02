@@ -1,0 +1,272 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+}
+.bodydiv {
+  background-image: url("../images/bg/img2.png");
+  /* background-image: url("../images/mainbgg.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 800px;
+  height: auto;
+  padding-bottom: 50px;
+  padding-top: 90px;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #ff8f53 #1b2e79;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 7px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #1b2e79;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #fd803d;
+  border-radius: 5px;
+  border: 1px solid #0f0f0f;
+}
+
+.mainnav {
+  background: rgba(28, 5, 50, 0.8);
+  width: 100%;
+  margin-bottom: -90px;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.4);
+}
+
+#carouselExampleIndicators {
+  z-index: -1;
+}
+#myTable {
+  font-size: 14.5px;
+}
+#tdcolspan {
+  width: 200px;
+}
+
+#myTable1 {
+  font-size: 14.5px;
+}
+
+.mainnav .nav-link {
+  color: white;
+}
+
+.mainnav .nav-link:hover {
+  color: rgb(255, 132, 0);
+}
+
+.mainnav .navbar-brand {
+  color: white;
+}
+
+.authbuttons,
+a.authbuttons {
+  border: 2px solid rgb(255, 132, 0);
+  background: transparent;
+  color: rgb(255, 132, 0);
+}
+.viewfilelinks {
+  color: rgb(255, 132, 0);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.viewfilelinks:hover {
+  color: rgb(255, 132, 0);
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+}
+span.navbar-toggler-icon {
+  color: rgb(255, 132, 0.1);
+  border: 1px dotted white;
+  background-color: rgb(255, 132, 0.2);
+}
+
+.authbuttons:hover {
+  background: rgb(255, 132, 0);
+  color: white;
+  transition: 0.5s ease;
+}
+
+.searchButton {
+  background: rgb(255, 132, 0);
+  color: white;
+}
+
+.searchButton:hover {
+  transform: scale(1.08);
+  transition: 0.4s ease;
+}
+
+#logout {
+  color: orange;
+}
+
+#logout:hover {
+  color: white;
+}
+
+#contentdiv3,
+#contentdiv2,
+#contentdiv {
+  padding: 50px 40px;
+  border-radius: 10px;
+  color: white;
+
+  /* background-color: rgba(18, 14, 92, 0.701); */
+  background: rgba(45, 15, 74, 0.8);
+
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#contentdiv4 {
+  background-color: rgba(64, 27, 93, 0.7);
+  color: white;
+  height: 50px;
+  border-radius: 10px 10px 0 0;
+}
+
+#contentdiv5 {
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 0 0 10px 10px;
+  font-size: 20px;
+  color: white;
+  min-height: 50px;
+  height: auto;
+  background: rgba(255, 255, 255, 0.12);
+
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  -webkit-box-shadow: 3px 7px 26px -5px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 3px 7px 26px -5px rgba(0, 0, 0, 1);
+  box-shadow: 3px 7px 26px -5px rgba(0, 0, 0, 1);
+}
+
+#commentsparentdiv {
+  /* background: rgba(18, 14, 92, 0.701); */
+  background: rgba(45, 15, 74, 0.7);
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+.alert-dismissible {
+  margin-bottom: -50px;
+  z-index: 2;
+  margin-top: 90px;
+}
+
+#ticketdiv {
+  /* background: rgba(18, 14, 92, 0.701); */
+
+  border-radius: 10px;
+
+  padding: 50px 40px;
+  border-radius: 10px;
+  color: white;
+
+  /* background-color: rgba(18, 14, 92, 0.701); */
+  background: rgba(45, 15, 74, 0.8);
+
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+h5.dashboardheader {
+  border-bottom: 0.5px solid white;
+  padding-bottom: 30px;
+  padding: 10px;
+}
+
+.dashboardheader:hover {
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+#photo,
+#photoupload {
+  font-size: 12px;
+  color: white;
+  background: transparent;
+}
+
+#fileHelp {
+  font-size: 9px;
+}
+
+.ticketdetailsheadings {
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+
+.list-group-item-action .show .active {
+  background: green;
+}
+#featuresdiv {
+  background: transparent;
+  margin-top: -250px;
+}
+.lottiecard {
+  width: auto;
+  border: none;
+}
+.card {
+  height: 400px;
+  width: auto;
+  background: rgba(0, 0, 0, 0.577);
+  border: 1px solid white;
+  z-index: 9;
+}
+.card-body {
+  width: auto;
+  height: auto;
+  background: white;
+  border: 1px solid black;
+}
+.ticketsuccess {
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  height: auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+.mainheading {
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+  margin-top: -730px;
+  font-weight: 900;
+  text-shadow: 1px 3px 2px rgba(255, 255, 255, 0.3);
+}
+
+/* .mainheading span {
+  background: rgba(35, 0, 59, 0.6);
+  border-radius: 15px;
+  padding: 10px;
+} */
+.mainheading span {
+  padding: 0;
+  margin: 0;
+}
